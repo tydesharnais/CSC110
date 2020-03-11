@@ -1,3 +1,5 @@
+package lifesatrip;
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -445,6 +447,7 @@ public class lifesatrip
 				Thread.sleep(3000);
 				System.exit(0);
 			}
+		}
 		if (crackhead_choice == 3)
 		{
 			System.out.println(p_name + ": Hello Sir, how are you?");
@@ -465,11 +468,12 @@ public class lifesatrip
 			System.out.println("You died at 2:05 AM at 21 years old. This becomes your legacy."
 					+ "\nThis is the end for you. Life's a trip huh?");
 			Thread.sleep(3000);
+			System.exit(0);
 		}
 		
 		
 		
-		}
+		
 		
 		System.out.println("Congratulations on getting away from the crackhead! Unfortunately this is the end of the trial version.");
 		System.out.println("Please by the full game 'Life's a Trip' to continue.");
@@ -479,5 +483,3 @@ public class lifesatrip
 		
 		}
 	}
-
-
